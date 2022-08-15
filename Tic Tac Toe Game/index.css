@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-header {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background-color: #131A28;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-text {
+  color: #9ACD32;
+  font-size: 42px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.square {
+  min-width: 100px;
+  min-height: 100px;
+  font-size: 64px;
+  text-align: center;
+  color: #B0E0E6;
+  font-weight: bolder;
+  padding: 30px;
+}
+
+.b-bottom-right {
+  border-right: 15px solid #B0E0E6;
+  border-bottom: 15px solid #B0E0E6;
+}
+
+.b-bottom {
+  border-bottom: 15px solid #B0E0E6;
+}
+
+.b-right {
+  border-right: 15px solid #B0E0E6;
+}
+
+.button {
+  margin-top: 30px;
+  font-size: large;
+  background-color: #9ACD32;
+  color:#1d0549;
+  border-radius: 8px;
+  transition-duration: 0.4s ;
+  padding: 10px 16px;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
