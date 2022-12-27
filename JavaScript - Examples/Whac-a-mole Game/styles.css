@@ -1,0 +1,29 @@
+.grid {
+    width: 606px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square {
+    height: 190px;
+    width: 200px;
+    border: solid black 1px;
+    background-color: white;
+    
+}
+
+.mole {
+    background-image: url('mordekai.jpg');
+    background-size: auto;
+}
+
+#body {
+    background-color: #181818;
+    margin-left: 450px;
+}
+
+#up {
+    color: white;
+}

@@ -1,0 +1,27 @@
+#grid {
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 740px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#score {
+    color: darkmagenta;
+    margin-top: 170px;
+    margin-left: 710px;
+    font-size: xx-large;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightpink;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 100px;
+}
+
+#body {
+    background-color: #181818;
+}

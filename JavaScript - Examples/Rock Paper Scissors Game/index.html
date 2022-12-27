@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <style>
+        #rock {
+            background-color: #4CAF50;
+            font-size: xx-large;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            transition-duration: 0.4s;
+            color: lightgreen;
+            border: 2px solid darkgreen;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+        #rock:hover {
+            background-color: #4CAF50; /* Green */
+            color: white;
+        }
+
+        #paper {
+            background-color: #f44336;
+            font-size: xx-large;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            transition-duration: 0.4s;
+            color: lightsalmon;
+            border: 2px solid darkred;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+        #paper:hover {
+            background-color: #f44336; /* Green */
+            color: white;
+        }
+
+        #scissors {
+            background-color: #008CBA;
+            font-size: xx-large;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            transition-duration: 0.4s;
+            color: lightskyblue;
+            border: 2px solid darkblue;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+        #scissors:hover {
+            background-color: #008CBA; /* Green */
+            color: white;
+        }
+
+        #header {
+            text-align: center;
+            background-color: #181818;
+            margin-top: 150px;
+        }
+
+        #cc {
+            color:darkmagenta;
+            font-size: 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color:lightpink;
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        #uc {
+            color:lightseagreen;
+            font-size: 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: lightcyan;
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        #r {
+            color:darkgreen;
+            font-size: 40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: lightgreen;
+            width: 50%;
+            margin-left: 25%;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body id="header">
+    
+    <h2 id="cc">Computer Choice : <span id="computer-choice"></span></h2>
+    <h2 id="uc">User Choice : <span id="user-choice"></span></h2>
+    <h2 id="r">Result : <span id="result"></span></h2>
+
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
